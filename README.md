@@ -1,4 +1,4 @@
-<!doctype html>
+
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -243,12 +243,9 @@
                 <footer class="footer container container-2">
                     <div class="row"> 
                         <p class="col-sm-7">Copyright 2023 Cloud Computing Assignment</p>
-                        <p class="col-sm-5 text-right design">Design: <a rel="nofollow"https://parametors.github.io/cloud.github.io/" target="_parent">Group members</a></p>
+                        <p class="col-sm-5 text-right design">Design: group members </p>
                     </div>
                 </footer>
             </section>
         </main>
-    </div>
-
-</body>
-</html>
+  
