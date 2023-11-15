@@ -1,18 +1,18 @@
 
 <html>
 <head>
-    <title>Fashion Line</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            justify-content: top;
-            align-items: center;
-            height: 100vh;
-        }
-        h1 {
+<title>Fashion Line</title>
+<style>
+body {
+margin: 0;
+padding: 0;
+display: flex;
+flex-direction: column;
+justify-content: top;
+align-items: center;
+height: 100vh;
+ }
+h1 {
             text-align: center;
         }
         table {
@@ -65,26 +65,26 @@
         }
 /* Modal Styles... */
         .footer {
-            background-color: pink;
-            color: black;
-            text-align: center;
-            padding: 20px;
-            position: absolute;
-            bottom: 0;
-            width: 100%;
+background-color: pink;
+color: black;
+text-align: center;
+padding: 20px;
+position: absolute;
+bottom: 0;
+width: 100%;
+}
+.footer h2 {
+ margin: 0;
+ font-size: 24px;
         }
-        .footer h2 {
-            margin: 0;
-            font-size: 24px;
-        }
-        .footer p {
-            margin: 5px 0;
+.footer p {
+ margin: 5px 0;
         }
         /* Close Button Style... */
     </style>
 </head>
 <body>
-    <h1>Fashion Line</h1>
+ <h1>Fashion Line</h1>
     <table>
         <tr>
             <td>Home</td>
