@@ -110,8 +110,8 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#section-4"><span class="icn"><i class="far fa-2x fa-comments"></i></span> Contacts</a>
                         </li>
-                    </ul>
-                </div>
+
+               
                  <script>
          // Function to open the sign-in modal
         function openModal() {
@@ -144,8 +144,7 @@
             forgotPasswordForm.style.display = "block";
         });
     </script>
-            </nav>
-        </header>
+        
         
         <button class="navbar-button collapsed" type="button">
             <span class="menu_icon">
