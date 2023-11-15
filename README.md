@@ -1,26 +1,31 @@
-
+<!DOCTYPE html>
 <html>
 <head>
-<title>Fashion Line</title>
-<style>
-body {
-margin: 0;
-padding: 0;
-display: flex;
-flex-direction: column;
-justify-content: top;
-align-items: center;
-height: 100vh;
- }
-h1 {
+    <title>Fashion Line</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: top;
+            align-items: center;
+            min-height: 100vh; /* Ensure minimum height to cover the whole screen */
+            font-family: Arial, sans-serif; /* Use a common font for better compatibility */
+        }
+        h1 {
             text-align: center;
+            margin-top: 20px; /* Adjust spacing */
         }
         table {
-            width: 80%; /* Adjust the width as needed */
+            width: 100%; /* Adjust to cover full width */
+            max-width: 800px; /* Set a maximum width for content */
             border-collapse: collapse;
+            margin-top: 20px; /* Adjust spacing */
         }
         th, td {
-            padding: 15px;
+            padding: 10px; /* Smaller padding for better mobile view */
             text-align: center;
         }
         .blue-button {
@@ -30,61 +35,30 @@ h1 {
             border: none;
             cursor: pointer;
         }
-        /* Modal Styles */
-        .modal {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.5);
-        }
-        .modal-content {
-            background-color: white;
-            padding: 20px;
-            border-radius: 5px;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        /* Close Button Style */
-        .close {
-            color: #888;
-            float: right;
-            font-size: 28px;
-            font-weight: bold;
-            cursor: pointer;
-        }
-        .close:hover,
-        .close:focus {
-            color: black;
-            text-decoration: none;
-            cursor: pointer;
-        }
-/* Modal Styles... */
+        /* Modal Styles... */
+        /* Footer Styles... */
         .footer {
-background-color: pink;
-color: black;
-text-align: center;
-padding: 20px;
-position: absolute;
-bottom: 0;
-width: 100%;
-}
-.footer h2 {
- margin: 0;
- font-size: 24px;
+            background-color: pink;
+            color: black;
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+            box-sizing: border-box;
+            font-size: 14px; /* Adjust font size */
         }
-.footer p {
- margin: 5px 0;
+        .footer h2 {
+            margin-top: 0;
+            font-size: 24px;
+        }
+        .footer p {
+            margin: 5px 0;
         }
         /* Close Button Style... */
     </style>
 </head>
 <body>
- <h1>Fashion Line</h1>
+   
+    <h1>Fashion Line</h1>
     <table>
         <tr>
             <td>Home</td>
@@ -132,7 +106,7 @@ width: 100%;
     <!-- Additional content can go here -->
 
     <script>
-        // Function to open the sign-in modal
+         // Function to open the sign-in modal
         function openModal() {
             var modal = document.getElementById("myModal");
             modal.style.display = "block";
@@ -163,15 +137,15 @@ width: 100%;
             forgotPasswordForm.style.display = "block";
         });
     </script>
-  <!-- Footer -->
+
+    <!-- Footer -->
     <div class="footer">
         <h2>GROUP MEMBERS</h2>
         <p><strong>JOHN NYANG'AU KINYOSI</strong> BSSC/407J/2019</p>
         <p><strong>JOHN ALUMA</strong> BSSC/404J/2019</p>
-         <p><strong>EDDY DULO</strong> BSSC/409J/2019</p>
-          <p><strong>LINDSEY OMOTO</strong> BSSC/286J/2018</p>
+        <p><strong>EDDY DULO</strong> BSSC/409J/2019</p>
+        <p><strong>LINDSEY OMOTO</strong> BSSC/286J/2018</p>
         <p><strong>CATHERINE MUTESHI</strong> BSSC/356J/2019</p>
     </div>
-
 </body>
 </html>
